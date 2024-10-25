@@ -37,3 +37,5 @@ class Job(models.Model):
     # Function to return main field which we are considering to be title
     def __str__(self):
         return self.title
+    
+    
